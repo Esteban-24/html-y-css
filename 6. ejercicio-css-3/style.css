@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  body {
+   width: 600px;
+    margin: 0 auto;
+  }
+header{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}  
+img{
+    max-width:600px;
+}
+#titulos h2{
+    border-bottom:solid gray; 
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 10px;
+}
+
+    #titulos h2{
+        color: gray;
+        padding: 10px;
+
+    }
+    #titulos p{
+        color: gray;
+        padding: 10px;
+
+    }
+    #titulos img{
+        padding-top: 10px;
+    }
+
+    #form {
+        color: gray;
+        max-width: 100%;
+      }
+      #form h2{
+        border-bottom:solid gray; 
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        padding-bottom: 10px;
+    
+      }
+#form fieldset{
+    border-style: none;
+    padding-top: 10px;
+}
+      #form input,
+      #form textarea{
+          background: darkgrey;
+          border: 2px;
+          width: 100%;
+      }
+      button{
+        background: rgb(0, 0, 0);
+        color: white;
+        min-width: 200px;
+        min-height: 50px;
+    }
+    /*----------------------------------------------------------------------*/
+    @media (min-width: 800px){
+        body {
+            width: 100%;
+        }
+        header{
+            background: black;
+            color: white;
+            text-align: left;
+            padding: 50px;
+        } 
+        header h1{
+            font-size: 200%;
+        }
+        header h2{
+            font-size: 150%;
+        }
+
+        header p{
+            font-size: 100%;
+        }
+        
+        main{
+            width: 500px;
+            background: rgb(255, 255, 255);
+            margin: 0 auto;
+        }
+        main img{
+            width: 100%;
+        }
+      
+
+
+    }
+     

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+/*Cambié en el HTML ”lista” a "lista", ya que no me dejaba usar la opcion de class si no lo escribia así: ul.”lista”*/
+ul.lista {
+    flex-grow: 3;
+    flex-shrink: 3;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 10px;
+    font-size: 20px;
+}
+
+ul.lista :nth-child(odd){
+    text-decoration: underline green;
+}
+
+ul.lista :last-of-type{
+    background: blue;
+}
+
+[lang="en"]{
+    font-size: 200%;
+    text-transform: uppercase;
+}
+#provincias  {
+    list-style: upper-roman;
+    margin: 50px;
+  }
+  #provincias :nth-child(2) {
+    list-style: none;
+  }
+
+  ul.lista ::after {
+    margin-right: 10px
+  }
+  ul.lista :first-of-type::after {
+    content: "😆";
+  }
+  ul.lista :nth-of-type(2)::after {
+    content: "🙋";
+  }
+  ul.lista :nth-of-type(3)::after {
+    content: "😇";
+  }
+  ul.lista :nth-of-type(4)::after {
+    content: "😿";
+  }
+  ul.lista :nth-of-type(5)::after {
+    content: "😆";
+  }
+  ul.lista :nth-of-type(5)::after {
+    content: "😆";
+  }
+  ul.lista :nth-of-type(6)::after {
+    content: "🙋";
+  }

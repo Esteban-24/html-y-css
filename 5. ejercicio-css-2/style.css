@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+fieldset {
+    background: lightgray;
+    padding: 1rem;
+  }
+fieldset:hover {
+    background: darkgray;
+  }
+  fieldset:first-of-type{
+    border-bottom:solid rgb(0, 0, 0); 
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    border-width: 5px;
+    }
+    fieldset:last-of-type{
+        border-bottom:solid rgb(0, 0, 0); 
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    
+        border-width: 5px;
+        }
+  html {
+    background: lightpink;
+  }
+  
+  body {
+    max-width: 800px;
+    min-width: 400px;
+    margin: 0 auto;
+  }
+  button{
+      background: rgb(144, 37, 37);
+      border: none;
+      color: white;
+  }
+  input:required{
+      border: solid red;
+      border-width: 5px; 
+  }
